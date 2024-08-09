@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сообщить</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Alfa Slab One" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<section class="contacts">
+
+    <h2 class="heading"><span></span>Сообщить</h2>
+
+    <div class="row">
+
+        <div class="img">
+            <img src="images/YoutubeImage.png">
+        </div>
+
+        <form action="https://api.web3forms.com/submit" method="post">
+
+            <input type="hidden" name="access_key" value="85df5c56-ad54-4128-bd9e-f51a16687607">
+
+            <span>Ваше имя</span>
+            <input type="text" name="name" id="" class="box" required placeholder="Ведите имя" autocomplete="off">
+            
+            <span>Ваша почта</span>
+            <input type="text" name="email" id="" class="box" required placeholder="Ведите почту" autocomplete="off">
+
+            <span>Что вы хотите написать</span>
+            <input type="text" name="text" id="" class="box" required placeholder="Сообщение" autocomplete="off">
+
+            <span>Я подтверждаю что это не фейковое сообщение и нормальное</span>
+            <input type="checkbox" name="checkbox" class="box" required>
+
+            <input type="submit" value="Отправить" class="btn">
+
+
+        </form>
+
+    </div>
+
+</section>
+
+</body>
+</html>
